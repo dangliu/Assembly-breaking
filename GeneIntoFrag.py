@@ -1,11 +1,11 @@
 #!/usr/bin/python
-## Assgin genes from gene gff into fragments of genome from genome fragment gff
+## Assgin annotation info. from reference gff into fragments of genome from genome fragment gff
 
 usage = """
-Generate gene gff for fragmented genome segments,
+Generate annotated gff for fragmented genome segments,
 usage:
 
-python GeneIntoFrag.py fragment.gff gene.gff
+python GeneIntoFrag.py fragment.gff ref.gff
 
 
 Written by Dang, Academia sinica, Jan 05, 2017.
