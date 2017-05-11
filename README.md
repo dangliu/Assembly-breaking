@@ -4,6 +4,7 @@ Scripts related to assembly breaking
 -Genome_cut.py
 
 Input[1]: reference.genome.len.txt, as "Scaffold_ID[tab]Scaffold_length"
+
 Input[2]: n (kb)
 
 usage = """
@@ -21,6 +22,7 @@ Written by Dang, Academia sinica, Dec 28, 2016.
 -GeneIntoFrag.py
 
 Input[1]: fragment.gff (output of Genome_cut.py)
+
 Input[2]: reference gff
 
 usage = """
