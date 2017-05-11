@@ -37,3 +37,7 @@ Written by Dang, Academia sinica, Jan 05, 2017.
 
 """
 
+
+-Sample Dataset
+
+c_elegans.ref.fa.len.txt and c_elegans.coding_gene.gff are processed from c_elegans.genome.fasta and c_elegans.gff downloaded from WS255 dataset in WormBase: http://www.wormbase.org/
