@@ -3,7 +3,7 @@ Scripts related to assembly breaking
 
 -Genome_cut.py
 
-Input[1]: reference.genome.len.txt, as "Scaffold_ID<tab>Scaffold_length"
+Input[1]: reference.genome.len.txt, as "Scaffold_ID[tab]Scaffold_length"
 Input[2]: n (kb)
 
 usage = """
