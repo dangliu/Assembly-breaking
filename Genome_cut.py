@@ -3,7 +3,7 @@
 # script to generate N50 = n kb gff from Genome length file
 
 usage = """
-Generate genome gff which can output N50=n scaffolds from genome length file with n kb specified,
+Generate fragmented genome gff with scaffolds randomly broken into fixed size of n kb from genome length file with n kb specified,
 usage:
 
 python Genome_cut.py genome.len.txt n
@@ -37,7 +37,7 @@ def natural_keys(text):
     return [ atoi(c) for c in re.split('(\d+)', text) ]
 
 
-# Dict
+# make Dictionary to collect info here
 G_dit = {}
 Scf_dit = {}
 Scf_n = 1
