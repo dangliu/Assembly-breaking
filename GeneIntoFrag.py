@@ -1,8 +1,8 @@
 #!/usr/bin/python
-## Assgin genes in gene gff into fragments of genome from genome fragment gff
+## Assgin genes from gene gff into fragments of genome from genome fragment gff
 
 usage = """
-Generate gene gff of segmented genome,
+Generate gene gff for fragmented genome segments,
 usage:
 
 python GeneIntoFrag.py fragment.gff gene.gff
