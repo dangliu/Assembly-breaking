@@ -37,6 +37,9 @@ Written by Dang, Academia sinica, Jan 05, 2017.
 
 """
 
+Fasta file of fragmented assembly can be made using bedtools http://bedtools.readthedocs.io/ with original assembly fasta file
+
+"""
 
 -Sample Dataset
 
